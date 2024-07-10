@@ -1,0 +1,28 @@
+{% extends "main/base.html" %}
+{% load static %}
+
+{% block content %}
+    <section id="top" class="text-center" style="overflow-x:hidden;height: 100%;">
+        <!--title section-->
+        {% include "main/snippets/topbar.html" %}
+        <div class="na1">
+            
+            <div class="nar1">
+                <h2>Our Identity</h2>
+            </div>
+        </div>
+        <div class="identity">
+            <p class="myid">
+                We are passionate about sharing the word of God's grace (Garage) growing in the character and
+                competencies of Jesus (Missional Communities) and going out to transform our communities (Frontiers). 
+                     Our dream is to plant 3000 churches by 2042.
+
+                    Imagine 3000 Churches, discipling three million people in 100,000 Missional 
+                    Communities and together serving 100,000 Frontiers a month! That sounds like, 
+                    “Your Kingdom come, Your will be done on earth as it is in heaven” t
+            </p>
+        </div>
+        {% include "main/snippets/footer.html" %}
+    </section>
+
+{% endblock %}
